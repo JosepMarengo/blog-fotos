@@ -1,0 +1,662 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+}
+
+.list{margin-top: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.list li{
+    padding: 0rem 1rem 0rem 1rem;
+    font-size: 1.3rem;
+    transition: .5s ease;
+}
+
+.list li:hover{
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.list li a{
+    text-decoration: none;
+}
+
+/*a:visited: Estilo para un enlace visitado */
+ .list li a:visited{ 
+    color: black;
+}
+
+.container-principal{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.container-principal div{
+    transition: .5s ease;
+    opacity: .8;
+}
+
+.container-principal div:hover{
+    width: 15rem;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.image1{
+    background-color: red;
+    width: 10rem;
+    height: 25rem;
+    background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.24_0efdaf66.jpg);
+    background-size: cover;
+}
+
+.image2{
+    background-color: blue;
+    width: 10rem;
+    height: 25rem;
+    background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.26_ba884fc3.jpg);
+    background-size: cover;
+}
+.image3{
+    background-color: green;
+    width: 10rem;
+    height: 25rem;
+    background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.27_b778d818.jpg);
+    background-size: cover;
+}
+
+.text1{
+    margin: 2rem 3rem 0rem 3rem;
+    font-size: 2rem;
+}
+
+.text1 h2{
+    color: #28AFB0;
+}
+
+.text1 p{
+    color: #19647E;
+}
+
+.text1 h3{
+    color: #28AFB0;
+}
+.text1 ul{
+    color: #19647E;
+}
+.text1 span{
+    color: #70566D;
+}
+
+ 
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section1 div{
+    margin: 4rem 0rem 0rem 2rem;
+}
+
+.image4{
+    background-color: rgb(13, 194, 226);
+    width:19rem;
+    height: 28rem;
+    background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.28_7d3a09bf.jpg);
+    background-size: cover;
+}
+
+.image5{
+    background-color: red;
+    width:19rem;
+    height: 28rem;
+    background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.30_0f3ea7ad.jpg);
+    background-size: cover;
+}
+
+.image6{
+    background-color: green;
+    width:19rem;
+    height: 28rem;
+    background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.29_01c78dd5.jpg);
+    background-size: cover;
+}
+
+.text2{
+    margin: 3rem 3rem 0rem 3rem;
+    font-size: 2rem;
+}
+.text2 h2{
+    color: #28AFB0;
+}
+.text2 ul{
+    color: #19647E;
+}
+
+.section2{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;    
+}
+
+.section2 div{
+    margin: 0rem 1rem 0rem 0.8rem;  
+
+}
+
+.image7{
+    background-color: blueviolet;
+    width: 18rem;
+    height: 28rem;
+    background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-12\ a\ las\ 21.36.38_6181d635.jpg);
+    background-size: cover;
+}
+
+.image8{
+    background-color: rgb(10, 90, 155);
+    width: 10rem;
+    height: 15rem;
+    position: relative;
+    top: 5rem;
+    transition: .5s ease;
+    background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-12\ a\ las\ 21.36.37_0de1cbaf.jpg);
+    background-size: cover;
+}
+
+.image8:hover{
+    width: 25rem;
+    height: 28rem;
+    position: relative;
+    top: 0rem;
+}
+
+.section3{
+    margin-top: 1rem;
+}
+
+.section3 h2{
+    color: #28AFB0;
+    margin: 3rem 0rem 0rem 2rem;
+    
+}
+.image9{
+    background-color: red;
+    width: 27rem;
+    height: 20rem;
+    margin: 0rem 1rem 0rem 2rem;
+    background-image: url(images/camera2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer{
+    text-align: center;
+    background-color: #DAF7DC;
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+}
+
+#logo a{ 
+    color: #000;
+    margin: 1rem;
+    font-size: 2rem;
+    transition: .5s ease;
+}
+#logo a:hover{
+    color: rgb(52, 17, 207);
+    font-size: 3rem;
+}
+
+@media(min-width: 768px){
+    .list{margin-top: 1rem;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    .list li{
+        padding: 0rem 1rem 0rem 1rem;
+        font-size: 2rem;
+        transition: .5s ease;
+    }
+    
+    .list li:hover{
+        background-color: aquamarine;
+        border-radius: 5px;
+        padding: 1rem 0rem 1rem 0rem;
+    }
+    
+    .list li a{
+        text-decoration: none;
+    }
+    
+    /*a:visited: Estilo para un enlace visitado */
+     .list li a:visited{ 
+        color: black;
+    }
+    
+    .container-principal{
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+    }
+    .container-principal div{
+        transition: .5s ease;
+        opacity: .8;
+    }
+    
+    .container-principal div:hover{
+        width: 31rem;
+        opacity: 1;
+        filter: contrast(120%);
+        
+        
+
+    }
+    .image1{
+        background-color: red;
+        width: 25rem;
+        height: 40rem;
+        background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.24_0efdaf66.jpg);
+        background-size: cover;
+    }
+    
+    .image2{
+        background-color: blue;
+        width: 25rem;
+        height: 40rem;
+        background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.26_ba884fc3.jpg);
+        background-size: cover;
+    }
+    .image3{
+        background-color: green;
+        width: 25rem;
+        height: 40rem;
+        background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.27_b778d818.jpg);
+        background-size: cover;
+    }
+    
+    .text1{
+        margin: 6rem 3rem 0rem 6rem;
+        font-size: 2.5rem;
+    }
+    
+    .text1 h2{
+        color: #28AFB0;
+    }
+    
+    .text1 p{
+        color: #19647E;
+    }
+    
+    .text1 h3{
+        color: #28AFB0;
+    }
+    .text1 ul{
+        color: #19647E;
+    }
+    .text1 span{
+        color: #70566D;
+    }
+    
+     
+    
+    .section1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section1 div{
+        margin: 4rem 0rem 0rem 2rem;
+    }
+    
+    .image4{
+        background-color: rgb(13, 194, 226);
+        width:29rem;
+        height: 38rem;
+        background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.28_7d3a09bf.jpg);
+        background-size: cover;
+    }
+    
+    .image5{
+        background-color: red;
+        width:29rem;
+        height: 38rem;
+        background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.30_0f3ea7ad.jpg);
+        background-size: cover;
+    }
+    
+    .image6{
+        background-color: green;
+        width:29rem;
+        height: 38rem;
+        background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.29_01c78dd5.jpg);
+        background-size: cover;
+    }
+    
+    .text2{
+        margin: 6rem 3rem 0rem 6rem;
+        font-size: 2.5rem;
+    }
+    .text2 h2{
+        color: #28AFB0;
+    }
+    .text2 ul{
+        color: #19647E;
+    }
+    
+    .section2{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;    
+    }
+    
+    .section2 div{
+        margin: 0rem 1rem 0rem 0.8rem;  
+    
+    }
+    
+    .image7{
+        background-color: blueviolet;
+        width: 28rem;
+        height: 38rem;
+        background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-12\ a\ las\ 21.36.38_6181d635.jpg);
+        background-size: cover;
+    }
+    
+    .image8{
+        background-color: rgb(10, 90, 155);
+        width: 20rem;
+        height: 25rem;
+        position: relative;
+        top: 5rem;
+        transition: .5s ease;
+        background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-12\ a\ las\ 21.36.37_0de1cbaf.jpg);
+        background-size: cover;
+    }
+    
+    .image8:hover{
+        width: 35rem;
+        height: 38rem;
+        position: relative;
+        top: 0rem;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    
+    .section3{
+        margin-top: 1rem;
+    }
+    
+    .section3 h2{
+        color: #28AFB0;
+        margin: 3rem 6rem 0rem 6rem;
+        font-size: 3rem;
+        
+    }
+    .image9{
+        background-color: red;
+        width: 42rem;
+        height: 32rem;
+        margin: 0rem 0rem 0rem 6rem;
+        background-image: url(images/camera2.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .footer{
+        text-align: center;
+        background-color: #DAF7DC;
+        padding-top: 0.5rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+    
+    #logo a{ 
+        color: #000;
+        margin: 1rem;
+        font-size: 3rem;
+        transition: .5s ease;
+    }
+    #logo a:hover{
+        color: rgb(52, 17, 207);
+        font-size: 4rem;
+    }
+    
+}
+
+@media(min-width:1920px){
+    .list{margin-top: 1rem;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    .list li{
+        padding: 0rem 1rem 0rem 1rem;
+        font-size: 2.5rem;
+        transition: .5s ease;
+    }
+    
+    .list li:hover{
+        background-color: aquamarine;
+        border-radius: 5px;
+        padding: 1rem 0rem 1rem 0rem;
+    }
+    
+    .list li a{
+        text-decoration: none;
+    }
+    
+    /*a:visited: Estilo para un enlace visitado */
+     .list li a:visited{ 
+        color: black;
+    }
+    
+    .container-principal{
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+    }
+    .container-principal div{
+        transition: .5s ease;
+        opacity: .8;
+    }
+    
+    .container-principal div:hover{
+        width: 39rem;
+        opacity: 1;
+        filter: contrast(120%);
+        
+        
+
+    }
+    .image1{
+        background-color: red;
+        width: 35rem;
+        height: 52rem;
+        background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.24_0efdaf66.jpg);
+        background-size: cover;
+    }
+    
+    .image2{
+        background-color: blue;
+        width: 35rem;
+        height: 52rem;
+        background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.26_ba884fc3.jpg);
+        background-size: cover;
+    }
+    .image3{
+        background-color: green;
+        width: 35rem;
+        height: 52rem;
+        background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.27_b778d818.jpg);
+        background-size: cover;
+    }
+    
+    .text1{
+        margin: 5rem 11rem 0rem 11rem;
+        font-size: 2.5rem;
+    }
+    
+    .text1 h2{
+        color: #28AFB0;
+    }
+    
+    .text1 p{
+        color: #19647E;
+    }
+    
+    .text1 h3{
+        color: #28AFB0;
+    }
+    .text1 ul{
+        color: #19647E;
+    }
+    .text1 span{
+        color: #70566D;
+    }
+    
+     
+    
+    .section1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section1 div{
+        margin: 4rem 0rem 0rem 2rem;
+    }
+    
+    .image4{
+        background-color: rgb(13, 194, 226);
+        width:39rem;
+        height: 52rem;
+        background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.28_7d3a09bf.jpg);
+        background-size: cover;
+    }
+    
+    .image5{
+        background-color: red;
+        width:39rem;
+        height: 52rem;
+        background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.30_0f3ea7ad.jpg);
+        background-size: cover;
+    }
+    
+    .image6{
+        background-color: green;
+        width:39rem;
+        height: 52rem;
+        background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-08\ a\ las\ 10.31.29_01c78dd5.jpg);
+        background-size: cover;
+    }
+    
+    .text2{
+        margin: 5rem 11rem 0rem 11rem;
+        font-size: 2.5rem;
+    }
+    .text2 h2{
+        color: #28AFB0;
+    }
+    .text2 ul{
+        color: #19647E;
+    }
+    
+    .text2 span{
+        color: #70566D;
+    }
+    .section2{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;    
+    }
+    
+    .section2 div{
+        margin: 0rem 1rem 0rem 0.8rem;  
+    
+    }
+    
+    .image7{
+        background-color: blueviolet;
+        width: 28rem;
+        height: 38rem;
+        background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-12\ a\ las\ 21.36.38_6181d635.jpg);
+        background-size: cover;
+    }
+    
+    .image8{
+        background-color: rgb(10, 90, 155);
+        width: 20rem;
+        height: 25rem;
+        position: relative;
+        top: 5rem;
+        transition: .5s ease;
+        background-image: url(images/Imagen\ de\ WhatsApp\ 2024-10-12\ a\ las\ 21.36.37_0de1cbaf.jpg);
+        background-size: cover;
+    }
+    
+    .image8:hover{
+        width: 35rem;
+        height: 38rem;
+        position: relative;
+        top: 0rem;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    
+    .section3{
+        margin-top: 1rem;
+    }
+    
+    .section3 h2{
+        color: #28AFB0;
+        margin: 5rem 11rem 0rem 11rem;
+        font-size: 3rem;
+        
+    }
+    .container-image9{
+        display: flex;
+        justify-content: center;
+    }
+    .image9{
+        margin-top: 4rem;
+        background-color: red;
+        width: 72rem;
+        height: 52rem;
+        background-image: url(images/camera2.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .footer{
+        text-align: center;
+        background-color: #DAF7DC;
+        padding-top: 0.5rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+    
+    #logo a{ 
+        color: #000;
+        margin: 1rem;
+        font-size: 3rem;
+        transition: .5s ease;
+    }
+    #logo a:hover{
+        color: rgb(52, 17, 207);
+        font-size: 4rem;
+    }
+
+}
+
+    
