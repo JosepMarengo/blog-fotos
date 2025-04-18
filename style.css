@@ -170,7 +170,7 @@
     background-size: cover;
 }
 
-.image8:hover{
+.image8:focus{
     width: 25rem;
     height: 28rem;
     position: relative;
