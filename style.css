@@ -42,7 +42,8 @@
     opacity: .8;
 }
 
-.container-principal div:hover{
+/* focus efecto hover en pantallas moviles */
+.container-principal div:focus{
     width: 15rem;
     opacity: 1;
     filter: contrast(120%);
@@ -446,7 +447,7 @@
     }
     
     .list li:hover{
-        background-color: aquamarine;
+        background-color: rgb(158, 12, 149);
         border-radius: 5px;
         padding: 1rem 0rem 1rem 0rem;
     }
@@ -471,7 +472,7 @@
     }
     
     .container-principal div:hover{
-        width: 39rem;
+        width: 49rem;
         opacity: 1;
         filter: contrast(120%);
         
